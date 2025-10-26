@@ -90,6 +90,3 @@ Each run generates a set of show notes from both OAI and Claude. The easiest way
 
 After you're done editing, press "Save Changes" and it will rewrite the Markdown in your file to show the new cleaned and merged list.
 
-# License
-
-MIT License
