@@ -2,7 +2,7 @@
 
 
 
-We use smol-podcaster to take care of most of [Latent Space](https://latent.space) transcription work. What it will do for you:
+We use smol-podcaster to take care of most of transcription work. What it will do for you:
 
 - Generate a clean, diarized transcript of the podcast with speaker labels and timestamps
 - Generate a list of chapters with timestamps for the episode
@@ -25,7 +25,7 @@ Make a copy of the `.env.sample` and replace it with your keys:
 
 ### Run with web UI + background runs
 
-If you want to run a bunch in parallel (or remotely) you can use the web UI + celery. Before running, you'll need a broker for celery ([I use RabbitMQ](https://docs.celeryq.dev/en/stable/getting-started/backends-and-brokers/rabbitmq.html)).
+If you want to run a bunch in parallel (or remotely) you can use the web UI + celery. Before running, you'll need a broker for celery 
 
 If you have honcho installed, simply run `honcho start`, otherwise run each command manually:
 
